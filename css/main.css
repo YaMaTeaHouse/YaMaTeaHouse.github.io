@@ -1,0 +1,421 @@
+nav {
+      width:100%;
+      margin:auto;
+      font-size:20px;
+    }
+
+    ul {
+      margin:auto;
+      list-style-type:none;
+      padding:0; 
+      text-align:center;
+      font-family: 'Satisfy', cursive;
+      font-family: 'Chewy', cursive;     
+    }
+
+    li {
+      float:left;
+
+    }
+
+    li:last-child {
+      margin-right:0;
+    }
+
+    li a {
+      margin-right:20px;
+      text-decoration:none;
+      color:#999;
+      transition:all 0.2s;
+      -webkit-transition:all 0.2s;
+      -moz-transition:all 0.2s;
+    }
+
+    li a i {
+      display:block;
+      padding:10px 0 0 0;
+      border-top:2px solid #999;
+      width:0;
+      transition:all 0.2s;
+      -webkit-transition:all 0.2s;
+      -moz-transition:all 0.2s;
+    }
+    .card-text{
+        text-align: center;
+    }
+    .carousel-bg{
+        background-image: url('img/tea-leaf110902.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 62vh;
+    }
+    .carousel-bg2{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 62vh;
+    }
+    .carousel-bg3{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 62vh;
+    }
+
+    #news{
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #news h1{
+        text-align: center;
+        padding-top: 5vh;
+        font-family: 'Chewy', cursive;
+        font-family: 'Lemon', cursive;
+    }  
+     #tea h1{
+        text-align: center;
+        padding-top: 5vh;
+        font-family: 'Chewy', cursive;
+        font-family: 'Lemon', cursive;
+    }  
+    .navbar-center {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+    .navbar-collapse-center {
+      text-align: center;
+    }
+    .text-center img{
+      width: 12%;     
+    }
+    #brewing{
+        margin-top: 3%;
+    }
+    #taste{
+      width: 80%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    #taste h1{
+        font-family: 'Chewy', cursive;
+        font-family: 'Lemon', cursive;
+        text-align: center;
+    }
+    #taste p{
+        text-align: center;
+        font-size: 16pt;
+    }
+
+
+    #taste_tea{
+        margin-top: 1%;
+    }
+    
+    #knack{
+      padding: 10%;
+      margin-top: 2%; 
+      box-sizing: border-box;
+    }
+    #knack h1{
+      font-family: 'Chewy', cursive;
+      font-family: 'Lemon', cursive;
+    }
+    #knack_text{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;  
+      height: auto;
+      font-size:150%;      
+    }
+    #story{
+      padding: 3%;
+      box-sizing: border-box;
+    }
+    #story h1{
+      font-family: 'Chewy', cursive;
+      font-family: 'Lemon', cursive;
+    }
+    #story_text{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;  
+      height: auto;
+      font-size:150%;
+      font-family: 'Satisfy', cursive;      
+    }
+    #aboutus{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    #aboutus_logo img{
+      float: left;
+      width: 25%;
+      height: auto;
+    }
+
+
+    
+    @media (max-width: 480px) {
+      .card2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+    }
+
+    .image {
+      width: auto;
+      height: 230px;
+      overflow: hidden;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .image img {
+      height: 100%;
+    }
+
+    .text {
+      width: auto;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+    }
+    .text .line {
+      width: 20px;
+      height: 5px;
+      margin: 10px auto -10px;
+      background: #005391;
+    }
+    .text header {
+      padding: 5% 10% 0% 10%;
+    }
+
+    .text header h1 {
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 2.5em;
+      letter-spacing: 0.25em;
+      margin: 0;
+      color: #005391;
+      font-family: 'Chewy', cursive;
+      font-family: 'Lemon', cursive;
+    }
+    .text p {      
+      text-align: center;
+      font-size: 12pt;
+      line-height: 1.6em;
+      padding: 5% 15% 5% 15%;
+      margin: 0;
+    }
+}
+
+
+    @media (min-width: 481px) and (max-width: 768px) {
+      .card2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+    }
+
+    .image {
+      width: 100%;
+      height: 280px;
+      overflow: hidden;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .image img {
+      height: 100%;
+    }
+
+    .text {
+      width: auto;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+    }
+    .text .line {
+      width: 20px;
+      height: 5px;
+      margin: 10px auto -10px;
+      background: #005391;
+    }
+    .text header {
+      padding: 5% 10% 0% 10%;
+    }
+
+    .text header h1 {
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 2.5em;
+      letter-spacing: 0.25em;
+      margin: 0;
+      color: #005391;
+    }
+    .text p {
+      text-align: center;
+      font-size: 18pt;
+      line-height: 1.6em;
+      padding: 5% 15% 5% 15%;
+      margin: 0;
+    }
+}
+
+
+
+@media (min-width: 769px) {
+      .card2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      width: 100%;
+      height: 50vh;
+    }
+
+    .image {
+      width: 40vw;
+      height: 100%;
+      overflow: hidden;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .image img {
+      height: 100%;
+    }
+
+    .text {
+      width: 50vw;
+      -ms-flex-preferred-size: 1;
+          flex-basis: 1;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+    }
+    .text .line {
+      width: 20px;
+      height: 5px;
+      margin: 10px auto -10px;
+      background: #005391;
+    }
+    .text header {
+      padding: 5% 10% 0% 10%;
+    }
+
+    .text header h1 {
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 2.5em;
+      letter-spacing: 0.25em;
+      margin: 0;
+      color: #005391;
+      font-family: 'Chewy', cursive;
+      font-family: 'Lemon', cursive;
+    }
+    .text p {
+      font-family: 'Satisfy', cursive;
+      text-align: center;
+      font-size: 18pt;
+      line-height: 1.6em;
+      padding: 5% 15% 5% 15%;
+      margin: 0;
+    }
+}
+#footer3 {
+  height: auto;  
+  background-color: #F4DECB;
+}
+#footer3 section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #94618E;
+  color: #F8EEE7;
+  padding: 2% 15%;
+  margin-bottom: 1%;
+}
+#footer3 footer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  color: #94618E;
+  padding: 5px 30px;
+  text-align: center;
+}
+#footer3 a {
+  color: white;
+}
+#footer3 a:hover {
+  color: #F4DECB;
+}
+   .top img{
+        height: 50px;
+        width: 70px;
+        position: fixed;
+        bottom: 5px;
+        right:25px;    
+    }
